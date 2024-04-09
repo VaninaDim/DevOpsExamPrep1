@@ -21,5 +21,5 @@ jobs:
         cache: 'npm'
     - name: Install node modules (npm dependencies)
       run: npm install
-    - name: run unit tests
+    - name: Run unit tests
       run: npm run test:unit
