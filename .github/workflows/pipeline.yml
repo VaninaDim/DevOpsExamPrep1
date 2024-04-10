@@ -25,10 +25,7 @@ jobs:
       run: npm run test:unit
     - name: display softuni username
       run: echo "VaninaDimitrova - softuni username"
-    - name: install Playwright for UI tests
-      run: npx playwright install
-    - name: run UI tests
-      run: npm run test:ui
+
   
   run_ui_tests:
 
